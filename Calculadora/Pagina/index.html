@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculadora simples">
+    <link rel="stylesheet" href="../Estilo/style.css">
+    <title>Calculadora</title>
+</head>
+<body onload="Focus()">
+    
+    <h1 id="Mensagem"></h1>
+
+    <main>
+
+        <div id="DivInput">
+            <input type="text" value="" id="Resultado">
+        </div>
+
+        <div id="DivTeclado">
+
+            <button class="Tecla" id="BotaoApagar" onclick="TCapagar()">C</button>
+            <button class="Tecla Operador" id="Vezes" onclick="TCvezes()">*</button>
+            <button class="Tecla Operador" id="Mais" onclick="TCmais()">+</button>
+            <button class="Tecla Operador" id="Subtrair" onclick="TCsubtrair()">-</button>
+            <button class="Tecla" id="9" onclick="TC9()">9</button>
+            <button class="Tecla" id="8" onclick="TC8()">8</button>
+            <button class="Tecla" id="7" onclick="TC7()">7</button>
+            <button class="Tecla" id="6" onclick="TC6()">6</button>
+            <button class="Tecla" id="5" onclick="TC5()">5</button>
+            <button class="Tecla" id="4" onclick="TC4()">4</button>
+            <button class="Tecla" id="3" onclick="TC3()">3</button>
+            <button class="Tecla" id="2" onclick="TC2()">2</button>
+            <button class="Tecla" id="1" onclick="TC1()">1</button>
+            <button class="Tecla" id="0" onclick="TC0()">0</button>
+            <button class="Tecla" id="BotaoSomar" onclick="TCSomar()">=</button>
+            
+        </div>
+
+    </main>
+
+    <script src="../script/index.js"></script>
+
+</body>
+</html>
